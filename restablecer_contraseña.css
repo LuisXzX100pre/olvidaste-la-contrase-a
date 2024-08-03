@@ -1,0 +1,145 @@
+:root {
+    --radiant-orange: #ff3700;
+    --fog-gray: #F2F4F7;
+    --coal-black: #141517;
+    --text-color: #2c3e50;
+  }
+  
+  body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+  
+  img {
+    width: 70px;
+    height: 70px;
+    transition: all .5s ease-in-out;
+  }
+  
+  img:hover {
+    transform: scale(1.1);
+  }
+  
+  .conteiner {
+    height: 30em;
+    align-items: center;
+    width: 25em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+  }
+  
+  h1 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Inputs */
+  .login {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 360px;
+    height: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: solid #d5d8db;
+    box-sizing: border-box;
+    padding-left: 10px;
+    font-size: 15px;
+  }
+  
+  .login:focus {
+    border: 2px solid var(--radiant-orange);
+    outline: none;
+  }
+  
+  .above {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+  }
+  
+  .link-contraseña {
+    margin-left: 20px;
+    color: var(--radiant-orange);
+    text-decoration: none;
+  }
+  
+  .link-contraseña:hover {
+    color: #dc3203;
+    transition: .5s;
+  }
+  
+  .boton-enviar {
+    margin: 20px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: var(--radiant-orange);
+    color: white;
+    border: 0;
+    font-size: medium;
+    cursor: pointer;
+  }
+  
+  .boton-enviar:hover {
+    background-color: #c42e05;
+    transition: .5s;
+  }
+  
+  .registrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .registrar a {
+    text-decoration: none;
+    color: var(--radiant-orange);
+  }
+  
+  .registrar a:hover {
+    color: #ca2f04;
+    transition: .5s;
+  }
+  
+  .boton-registrarse {
+    margin-left: 5px;
+  }
+  
+  /* Estilos para el footer */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--fog-gray);
+    color: var(--text-color);
+    margin-top: 300px;
+  }
+  
+  .error {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    width: 95%;
+    border-radius: 50px;
+    margin: 20px auto;
+  }
+  
+  .message {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    width: 95%;
+    border-radius: 50px;
+    margin: 20px auto;
+  }
+  
